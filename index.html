@@ -1,130 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link stylesheet href="reset.css">
-    <link stylesheet href="style.css">
-    <title>Web Portfolio</title>
+    <title>Live Web Portfolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
+<nav>
+    <ul>
+    <li><a href="#">Contact Info</a></li>
+    <li><a href="#">Github</a></li>
+    <li><a href="#">Email</a></li>
+    </ul>
+</nav>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#"> Aidan</a>
-            <button class="navbar-toggler" type="button" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- main banner -->
-    <section class="background image" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero text">
-                <h2 class="hero_title">Hello, it's me Aidan</h2>
-                <p class="hero_description">I am an aspiring software developer in Philadelphia, PA</p>
-            </div>
-            </div>
-        </div>
-    </section>
-    <!-- About me section -->
-    <section id="about-me">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/about.jpeg" class="imageAboutPage" alt="">
 
-                </div>
-                <div class="col-lg-8">
-                    <p> Lorem Ipsum is to be placed here for now.
+    <header>
+        <h1 class="page-title">
+            Live Web Portfolio
+        </h1>
+        <h1 class="about-me">
+            About Me
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida dictum. Libero enim sed faucibus turpis in eu mi bibendum. Ornare arcu dui vivamus arcu felis bibendum. Tellus cras adipiscing enim eu. Enim nec dui nunc mattis enim ut. Id venenatis a condimentum vitae sapien pellentesque. Consectetur adipiscing elit ut aliquam purus sit. Faucibus vitae aliquet nec ullamcorper sit amet. Amet porttitor eget dolor morbi non arcu risus quis varius.
+        </p>
+    </header>
 
-                    </p>
-                    <div class="row-mt-3">
-                        <div class="col-md-6"
-                        <ul>
-                            <li> Name: Aidan Morrow</li>
-                            <li> DoB: 10/02/1996</li>
-                            <li> Aspiring web developer </li>
-                        </ul>
-                    </div>
-
-
-                </div>
-                <div class="row mt-3">
-                    <p> Hardworking and aspiring software developer working towards a full-stack software development certification. Proven ability to establish and maintain beneficial relationships with: vendors, suppliers, customers, and co-workers. Dedicated self-starter with strong time-management skills. 
-    
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- services section -->
-    <section id="services">
-        <div class="container">
-            <h1 class="text-center">Services</h1>
-            <div class="row">
-                <div class="card servicesText">
+    <main>
+        <section class="row justify-center">
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header">Email</h2>
+                    <ul class="links">
+                       <li><a href="Aidancmorrow1@gmail.com"></a></li>
+                    </ul>
                     <div class="card-body">
-                        <i class="fas servicesIcon fa-clock"></i>
-                        <h4 class="card-title mt-3">Website Development</h4>
-                        <p class="card-text mt-3">Example text to build card content</p>
+                        <p><link>Aidancmorrow1@gmail.com</link></p>
                     </div>
-                </div>
+                 </figure>
             </div>
-        </div>
-        <div class="col-lg-4 mt-4">
-            <div class="card servicesText">
-                <div class="card-body">
-                    <i class="fas servicesIcon fa-layer-group"></i>
-                    <h4 class="card-title mt-3">Website Design</h4>
-                    <p class="card-text mt-3">Short example text to build card content
-                    </p>
-                </div>
+            <div class="card-column">
+                <figure class="card code-card">
+                    <h2 class="card-header"></h2>
+                    <ul class="links">
+                        <li><a href="https://github.com">Github</a></li>
+                    </ul>
+                    <div class="card-body">
+                        <p>https://github.com/Aidancm1</p>
+                    </div>
+                </figure>
             </div>
-        </div>
-
-        <div class="col-lg-4 mt-4">
-            <div class="card servicesText">
-                <div class="card-body">
-                    <i class="far servicesIcon fa-layer-group"></i>
-                    <h4 class="card-title mt-3">Website Deployment</h4>
-                    <p class="card-text mt-3">Short example text to build card content</p>
-                </div>
+            <div class="card-colum">
+                <figure class="card code-card">
+                    <h2 class="card-header">Contact Info</h2>
+                    <div class="card-body">
+                        <p>2183721049
+                            Philadelphia, PA
+                        </p>
+                    </div>
             </div>
-        </div>
-
-        <div class="col-lg-4 mt-4">
-            <div class="card servicesText">
-                <div class="card-body">
-                    <i class="fas servicesIcon fa-search"></i>
-                    <h4 class="card-title mt-3">SEO</h4>
-                    <p class="card-text mt-3">Short example text to build card content</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com">Github</a></li>
+            <li><a href="Aidancmorrow1@gmail.com"></a></li>
+            <li>1234567890 Philadelphia,PA</li>
+        </ul>
+    </footer>
 </body>
 </html>
